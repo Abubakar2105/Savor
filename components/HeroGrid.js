@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   heroSmall: { flex: 1, borderRadius: 12, overflow: 'hidden', position: 'relative' },
   heroImg: { width: '100%', height: '100%' },
   heroOverlay: { 
-    ...StyleSheet.absoluteFillObject, 
+    ...StyleSheet.absoluteFill, 
     backgroundColor: 'rgba(0, 0, 0, 0.45)', 
     justifyContent: 'flex-end',            
     padding: 12,                           

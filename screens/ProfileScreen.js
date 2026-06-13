@@ -251,7 +251,7 @@ const styles = StyleSheet.create({
   sectionTitle: { color: COLORS.text, fontSize: 18, fontWeight: '700', marginBottom: 12 },
   card: { height: 160, borderRadius: 12, overflow: 'hidden', marginBottom: 12 },
   cardImg: { width: '100%', height: '100%' },
-  overlay: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.35)' },
+  overlay: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(0,0,0,0.35)' },
   cardTitle: { position: 'absolute', bottom: 10, left: 10, color: COLORS.text, fontWeight: '700', fontSize: 16 },
   emptyContainer: { padding: 32, alignItems: 'center', gap: 8, backgroundColor: COLORS.surface, borderRadius: 12, borderWidth: 1, borderColor: COLORS.border },
   emptyText: { color: COLORS.muted, fontSize: 14, textAlign: 'center' },

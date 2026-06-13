@@ -50,9 +50,7 @@ export default function RecipeScreen() {
         </Pressable>
 
         <View style={{ flexDirection: 'row', gap: 16 }}>
-          <Pressable style={styles.headerIconContainer}>
-            <Ionicons name="share-outline" size={22} color={COLORS.primary} />
-          </Pressable>
+         
        
           <Pressable 
             onPress={() => toggleBookmark(recipe.id)} 
@@ -185,7 +183,7 @@ const styles = StyleSheet.create({
   hero: { height: 420, position: 'relative' },
   heroImg: { width: '100%', height: '100%' },
   imageOverlayShadow: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     backgroundColor: 'rgba(0, 0, 0, 0.45)',
   },
   heroOverlay: {

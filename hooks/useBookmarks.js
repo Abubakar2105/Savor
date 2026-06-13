@@ -16,7 +16,7 @@ export function useBookmarks() {
   const toggleBookmark = async (id) => {
     const nextIds = bookmarkedIds.includes(id)
       ? bookmarkedIds.filter((item) => item !== id)
-      : [...bookmarkedIds, id];
+      : [...bookmarkedIds, id]; 
 
     setBookmarkedIds(nextIds);
 

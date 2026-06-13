@@ -117,16 +117,7 @@ export default function SignUpScreen({ navigation, route }) {
           secureTextEntry
           value={password}
           onChangeText={setPassword}
-        />
-
-        <Text style={styles.label}>Culinary Tagline</Text>
-        <TextInput
-          style={styles.input}
-          placeholder="e.g., Mastering French Classics"
-          placeholderTextColor="#a8a8a8"
-          value={tagline}
-          onChangeText={setTagline}
-        />
+        />        
 
         <Pressable 
           style={({ pressed }) => [styles.button, pressed && styles.buttonPressed]} 
@@ -152,7 +143,7 @@ export default function SignUpScreen({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
-  container: { backgroundColor: '#131410', paddingHorizontal: 24, paddingVertical: 40, justifyContent: 'center' },
+  container: { backgroundColor: '#131410', paddingHorizontal: 24, paddingVertical: 40, justifyContent: 'center', flex:1 },
   header: { marginBottom: 24 },
   title: { fontSize: 40, fontWeight: '800', color: '#ffb59e', marginBottom: 8 },
   subtitle: { fontSize: 18, color: '#e5e2db', fontWeight: '500' },

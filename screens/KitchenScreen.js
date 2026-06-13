@@ -276,7 +276,7 @@ const styles = StyleSheet.create({
   exploreBtnText: { color: '#fff', fontSize: 14, fontWeight: '700' },
   hero: { height: 420, position: 'relative' },
   heroImg: { width: '100%', height: '100%', position: 'absolute' },
-  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.6)' },
+  scrim: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(0,0,0,0.6)' },
   heroContent: { flex: 1, padding: 20, justifyContent: 'flex-end' },
   dishName: { color: COLORS.text, fontSize: 24, fontWeight: '800' },
   timer: { fontSize: 48, color: COLORS.secondary, fontWeight: '800', marginTop: 6 },

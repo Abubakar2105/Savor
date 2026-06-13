@@ -33,7 +33,7 @@ export default function TrendingCard({ item }) {
 const styles = StyleSheet.create({
   card: { width: width * 0.78, height: 330, marginRight: 16, borderRadius: 18, overflow: 'hidden', position: 'relative' },
   cardImg: { width: '100%', height: '100%' },
-  darkOverlay: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.55)' },
+  darkOverlay: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(0,0,0,0.55)' },
  
   cardContent: { position: 'absolute', bottom: 0, padding: 14 }, 
   pills: { flexDirection: 'row', gap: 6, marginBottom: 6 },

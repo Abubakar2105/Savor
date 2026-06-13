@@ -3,6 +3,7 @@ import { View, Text, TextInput, StyleSheet } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/native';
 import {COLORS} from "../constants"
+
 export default function SearchBar() {
   const [focused, setFocused] = useState(false);
   const navigation = useNavigation(); 

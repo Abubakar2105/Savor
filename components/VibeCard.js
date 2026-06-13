@@ -30,5 +30,5 @@ const styles = StyleSheet.create({
   vibeTitle: { color: COLORS.text, fontSize: 16, fontWeight: '700' },
   vibeImageWrap: { flex: 1, position: 'relative' },
   vibeImg: { width: '100%', height: '100%' },
-  vibeOverlay: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.25)' }
+  vibeOverlay: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(0,0,0,0.25)' }
 });

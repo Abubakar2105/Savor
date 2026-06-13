@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
   recipeCard: { width: '48%', backgroundColor: COLORS.card, borderRadius: 14, overflow: 'hidden' },
   imageContainer: { width: '100%', height: 130, position: 'relative' },
   recipeImg: { width: '100%', height: '100%' },
-  darkOverlay: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0, 0, 0, 0.25)' },
+  darkOverlay: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(0, 0, 0, 0.25)' },
   pillsRow: {
     position: 'absolute',
     bottom: 8,
